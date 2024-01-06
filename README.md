@@ -22,12 +22,14 @@ Update the sharepoint_sites list in the script with your SharePoint site details
 python
 Copy code
 sharepoint_sites = [
+
     {
         "site_url": "YOUR_SITE_URL",
         "site_base_url": "YOUR_SITE_BASE_URL",
         "client_id": "YOUR_CLIENT_ID",
         "client_secret": "YOUR_CLIENT_SECRET"
     },
+    
     # Add more SharePoint sites as needed
 ]
 
