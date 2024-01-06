@@ -74,6 +74,7 @@ def list_and_download_files_and_folders(url, folder_url, local_folder_path,clien
     # Ensure local folder exists
     if not os.path.exists(local_folder_path):
         os.makedirs(local_folder_path)
+
     # List and download files in the folder
     files = folder.files
     ctx.load(files)
